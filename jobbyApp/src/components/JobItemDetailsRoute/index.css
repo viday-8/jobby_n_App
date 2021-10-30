@@ -1,0 +1,104 @@
+.itemMain {
+  background-color: black;
+  padding: 50px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.itemHead {
+  background-color: black;
+  height: 100vh;
+}
+.details {
+  padding-left: 20px;
+  font-weight: bold;
+}
+.item {
+  background-color: #2c364c;
+  padding: 20px;
+  padding-bottom: 50px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.itemTop {
+  display: flex;
+  align-items: center;
+}
+
+.itemMore {
+  display: flex;
+  justify-content: space-between;
+}
+.itemLoc {
+  display: flex;
+  justify-content: space-between;
+  min-width: 150px;
+  max-width: 250px;
+}
+
+.visit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ALink {
+  color: #6366f1;
+  display: flex;
+  align-items: center;
+}
+
+.skillItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+  height: 100px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+}
+
+.skillCon {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.lifeCon {
+  display: flex;
+}
+
+.similarItem {
+  list-style-type: none;
+  background-color: #2c364c;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.similarList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logoI {
+  margin-right: 10px;
+}
+@media only screen and (max-width: 768px) {
+  .lifeCon {
+    display: flex;
+    flex-direction: column;
+  }
+  .similarItem {
+    list-style-type: none;
+    background-color: #2c364c;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+}
